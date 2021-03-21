@@ -6,28 +6,27 @@
 //
 
 import XCTest
-@testable import TestDispatchWithLegacyCode
+import TestDispatchWithLegacyCode
 
 class TestDispatchWithLegacyCodeTests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    func test_viewController_viewDidLoad_showsStringFromSuccessfullyRequest() throws {
+        let loader = LoaderSpy()
+        let sut = ViewController(loader: loader)
+        
+        sut.loadViewIfNeeded()
+        XCTAssertEqual(sut.label.text, "Loading...")
+        
+        loader.completion?("=-Loaded-=")
+        XCTAssertEqual(sut.label.text, "=-Loaded-=")
     }
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    // MARK: Private helpers
+    private class LoaderSpy: Loader {
+        var completion: ((String) -> Void)?
+        
+        func load(completion: @escaping (String) -> Void) {
+            self.completion = completion
         }
     }
-
 }

@@ -7,6 +7,6 @@
 
 import Foundation
 
-protocol Loader {
+public protocol Loader {
     func load(completion: @escaping (String)-> Void)
 }
