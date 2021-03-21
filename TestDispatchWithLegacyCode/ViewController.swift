@@ -29,9 +29,7 @@ public class ViewController: UIViewController {
         view.backgroundColor = .white
         addLabel()
         loader.load { [weak self] message in
-            DispatchQueue.main.async {
-                self?.label.text = message
-            }
+            self?.label.text = message
         }
     }
 
