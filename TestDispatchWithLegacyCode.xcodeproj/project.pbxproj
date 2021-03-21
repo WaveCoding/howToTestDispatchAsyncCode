@@ -13,6 +13,8 @@
 		254E518026078F1900A559EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 254E517F26078F1900A559EE /* Assets.xcassets */; };
 		254E518326078F1900A559EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 254E518126078F1900A559EE /* LaunchScreen.storyboard */; };
 		254E518E26078F1900A559EE /* TestDispatchWithLegacyCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254E518D26078F1900A559EE /* TestDispatchWithLegacyCodeTests.swift */; };
+		254E51B3260792D300A559EE /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254E51B2260792D300A559EE /* Loader.swift */; };
+		254E51B82607930F00A559EE /* RemoteLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254E51B72607930F00A559EE /* RemoteLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		254E518D26078F1900A559EE /* TestDispatchWithLegacyCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDispatchWithLegacyCodeTests.swift; sourceTree = "<group>"; };
 		254E518F26078F1900A559EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		254E519426078F1900A559EE /* TestDispatchWithLegacyCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestDispatchWithLegacyCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		254E51B2260792D300A559EE /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		254E51B72607930F00A559EE /* RemoteLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 				254E517F26078F1900A559EE /* Assets.xcassets */,
 				254E518126078F1900A559EE /* LaunchScreen.storyboard */,
 				254E518426078F1900A559EE /* Info.plist */,
+				254E51B2260792D300A559EE /* Loader.swift */,
+				254E51B72607930F00A559EE /* RemoteLoader.swift */,
 			);
 			path = TestDispatchWithLegacyCode;
 			sourceTree = "<group>";
@@ -243,7 +249,9 @@
 			files = (
 				254E517B26078F1600A559EE /* ViewController.swift in Sources */,
 				254E517726078F1600A559EE /* AppDelegate.swift in Sources */,
+				254E51B3260792D300A559EE /* Loader.swift in Sources */,
 				254E517926078F1600A559EE /* SceneDelegate.swift in Sources */,
+				254E51B82607930F00A559EE /* RemoteLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

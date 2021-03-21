@@ -14,10 +14,28 @@ class ViewController: UIViewController {
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
+    private let loader: Loader
+    
+    init(loader: Loader) {
+        self.loader = loader
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    @available(*, unavailable)
+    required init?(coder: NSCoder) { fatalError("init(coder:) has not been implemented") }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
+        addLabel()
+        loader.load { [weak self] message in
+            DispatchQueue.main.async {
+                self?.label.text = message
+            }
+        }
+    }
+
+    private func addLabel() {
         view.addSubview(label)
         NSLayoutConstraint.activate([
             label.centerXAnchor.constraint(equalTo: view.centerXAnchor),
@@ -25,7 +43,5 @@ class ViewController: UIViewController {
         ])
         label.text = "Loading..."
     }
-    
-
 }
 
