@@ -1,14 +1,14 @@
 //
-//  TestDispatchWithLegacyCodeTests.swift
-//  TestDispatchWithLegacyCodeTests
+//  TestDispatchCodeTests.swift
+//  TestDispatchCodeTests
 //
 //  Created by Fabio Cuomo on 21/03/2021.
 //
 
 import XCTest
-import TestDispatchWithLegacyCode
+import TestDispatchCode
 
-class TestDispatchWithLegacyCodeTests: XCTestCase {
+class TestDispatchCodeTests: XCTestCase {
 
     func test_viewController_viewDidLoad_showsStringFromSuccessfullyRequest() throws {
         let loader = LoaderSpy()
