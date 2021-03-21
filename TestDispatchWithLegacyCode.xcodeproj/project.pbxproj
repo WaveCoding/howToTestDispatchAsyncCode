@@ -10,11 +10,9 @@
 		254E517726078F1600A559EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254E517626078F1600A559EE /* AppDelegate.swift */; };
 		254E517926078F1600A559EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254E517826078F1600A559EE /* SceneDelegate.swift */; };
 		254E517B26078F1600A559EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254E517A26078F1600A559EE /* ViewController.swift */; };
-		254E517E26078F1600A559EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 254E517C26078F1600A559EE /* Main.storyboard */; };
 		254E518026078F1900A559EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 254E517F26078F1900A559EE /* Assets.xcassets */; };
 		254E518326078F1900A559EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 254E518126078F1900A559EE /* LaunchScreen.storyboard */; };
 		254E518E26078F1900A559EE /* TestDispatchWithLegacyCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254E518D26078F1900A559EE /* TestDispatchWithLegacyCodeTests.swift */; };
-		254E519926078F1900A559EE /* TestDispatchWithLegacyCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254E519826078F1900A559EE /* TestDispatchWithLegacyCodeUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +37,6 @@
 		254E517626078F1600A559EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		254E517826078F1600A559EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		254E517A26078F1600A559EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		254E517D26078F1600A559EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		254E517F26078F1900A559EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		254E518226078F1900A559EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		254E518426078F1900A559EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,8 +44,6 @@
 		254E518D26078F1900A559EE /* TestDispatchWithLegacyCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDispatchWithLegacyCodeTests.swift; sourceTree = "<group>"; };
 		254E518F26078F1900A559EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		254E519426078F1900A559EE /* TestDispatchWithLegacyCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestDispatchWithLegacyCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		254E519826078F1900A559EE /* TestDispatchWithLegacyCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDispatchWithLegacyCodeUITests.swift; sourceTree = "<group>"; };
-		254E519A26078F1900A559EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +76,6 @@
 			children = (
 				254E517526078F1600A559EE /* TestDispatchWithLegacyCode */,
 				254E518C26078F1900A559EE /* TestDispatchWithLegacyCodeTests */,
-				254E519726078F1900A559EE /* TestDispatchWithLegacyCodeUITests */,
 				254E517426078F1600A559EE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -102,7 +96,6 @@
 				254E517626078F1600A559EE /* AppDelegate.swift */,
 				254E517826078F1600A559EE /* SceneDelegate.swift */,
 				254E517A26078F1600A559EE /* ViewController.swift */,
-				254E517C26078F1600A559EE /* Main.storyboard */,
 				254E517F26078F1900A559EE /* Assets.xcassets */,
 				254E518126078F1900A559EE /* LaunchScreen.storyboard */,
 				254E518426078F1900A559EE /* Info.plist */,
@@ -117,15 +110,6 @@
 				254E518F26078F1900A559EE /* Info.plist */,
 			);
 			path = TestDispatchWithLegacyCodeTests;
-			sourceTree = "<group>";
-		};
-		254E519726078F1900A559EE /* TestDispatchWithLegacyCodeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				254E519826078F1900A559EE /* TestDispatchWithLegacyCodeUITests.swift */,
-				254E519A26078F1900A559EE /* Info.plist */,
-			);
-			path = TestDispatchWithLegacyCodeUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +217,6 @@
 			files = (
 				254E518326078F1900A559EE /* LaunchScreen.storyboard in Resources */,
 				254E518026078F1900A559EE /* Assets.xcassets in Resources */,
-				254E517E26078F1600A559EE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +259,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				254E519926078F1900A559EE /* TestDispatchWithLegacyCodeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +278,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		254E517C26078F1600A559EE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				254E517D26078F1600A559EE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		254E518126078F1900A559EE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -445,7 +419,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.wavecoding.TestDispatchWithLegacyCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -463,7 +437,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.wavecoding.TestDispatchWithLegacyCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
