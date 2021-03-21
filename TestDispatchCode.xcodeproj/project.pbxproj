@@ -15,6 +15,7 @@
 		254E518E26078F1900A559EE /* TestDispatchCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254E518D26078F1900A559EE /* TestDispatchCodeTests.swift */; };
 		254E51B3260792D300A559EE /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254E51B2260792D300A559EE /* Loader.swift */; };
 		254E51B82607930F00A559EE /* RemoteLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254E51B72607930F00A559EE /* RemoteLoader.swift */; };
+		254E51D22607B93A00A559EE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 254E51D12607B93A00A559EE /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		254E518F26078F1900A559EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		254E51B2260792D300A559EE /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
 		254E51B72607930F00A559EE /* RemoteLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteLoader.swift; sourceTree = "<group>"; };
+		254E51D12607B93A00A559EE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		254E516A26078F1600A559EE = {
 			isa = PBXGroup;
 			children = (
+				254E51D12607B93A00A559EE /* README.md */,
 				254E517526078F1600A559EE /* TestDispatchCode */,
 				254E518C26078F1900A559EE /* TestDispatchCodeTests */,
 				254E517426078F1600A559EE /* Products */,
@@ -182,6 +185,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				254E51D22607B93A00A559EE /* README.md in Resources */,
 				254E518326078F1900A559EE /* LaunchScreen.storyboard in Resources */,
 				254E518026078F1900A559EE /* Assets.xcassets in Resources */,
 			);
